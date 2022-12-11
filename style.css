@@ -39,7 +39,6 @@
 html,
 body {
     margin: 0;
-    color: var(--color-dark-grayish-blue);
     font-size: var(--font-size-default);
     font-weight: var(--font-weight-normal);
     font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
@@ -64,7 +63,18 @@ main {
     background-image: linear-gradient(to top, var(--color-soft-blue), var(--color-soft-violet));
 }
 
-main>section {
+main>section.card-section {
     background: white;
     max-width: calc(32.5rem /1.5);
+    display: flex;
+    flex-direction: column;
+}
+
+main>section>div.card-header>h1 {
+    font-size: 3rem;
+    font-variation-settings: 'wght' var(--font-weight-bold);
+}
+
+main>section>div.card-body {
+    color: var(--color-dark-grayish-blue);
 }
