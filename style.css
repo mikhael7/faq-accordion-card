@@ -34,5 +34,27 @@
     --border-radius-s: 5pt;
     --border-radius-m: 10pt;
     --border-radius-l: 15pt;
+}
 
+html,
+body {
+    margin: 0;
+    font-size: var(--font-size-default);
+    font-weight: var(--font-weight-normal);
+    font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+main {
+    /* centering card component */
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
 }
