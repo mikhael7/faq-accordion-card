@@ -47,9 +47,9 @@ body {
 
 footer {
     margin-top: 2rem;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: white;
-    border-radius: var(--border-radius-m)
+    border-radius: var(--border-radius-s);
 }
 
 main {
