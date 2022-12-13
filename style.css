@@ -79,10 +79,11 @@ main>section.card-section {
     max-width: calc(32.5rem /1.5);
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 4rem;
+    padding-left: 1em;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
     border-radius: var(--border-radius-l);
+    width: 100%;
 }
 
 main>section>div.card-header>h1 {
