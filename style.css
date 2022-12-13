@@ -95,7 +95,7 @@ main>section>div.card-body {
     color: var(--color-very-dark-grayish-blue);
 }
 
-main>section>div.card-body button.accordion {
+main>section>div.card-body>div.accordion-container button.accordion {
     font-size: var(--font-size-default);
     color: var(--color-dark-grayish-blue);
     padding-top: 1rem;
@@ -107,7 +107,7 @@ main>section>div.card-body button.accordion {
     border: none;
 }
 
-main>section>div.card-body div.accordion-content {
+main>section>div.card-body>div.accordion-container div.accordion-content {
     border-bottom: 1px solid var(--color-light-grayish-blue);
     padding-bottom: 1rem;
 }
