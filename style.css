@@ -68,9 +68,14 @@ main>section.card-section {
     max-width: calc(32.5rem /1.5);
     display: flex;
     flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    border-radius: var(--border-radius-l);
 }
 
 main>section>div.card-header>h1 {
+    text-align: center;
     font-size: 3rem;
     font-variation-settings: 'wght' var(--font-weight-bold);
 }
@@ -79,7 +84,17 @@ main>section>div.card-body {
     color: var(--color-dark-grayish-blue);
 }
 
-main>section>div.card-body button {
+main>section>div.card-body button.accordion {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
     background: transparent;
     border: none;
+}
+
+main>section>div.card-body div.accordion-content {
+    border-bottom: 1px solid var(--color-light-grayish-blue);
+    padding-bottom: 1rem;
 }
