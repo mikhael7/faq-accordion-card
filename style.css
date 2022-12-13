@@ -51,6 +51,17 @@ footer {
     border-radius: var(--border-radius-s);
 }
 
+/* #region shared class */
+.accordion-active {
+    color: var(--color-very-dark-grayish-blue);
+}
+
+.hidden {
+    display: none;
+}
+
+/* #endregion shared class */
+
 main {
     /* centering card component */
     margin: 0;
@@ -81,10 +92,12 @@ main>section>div.card-header>h1 {
 }
 
 main>section>div.card-body {
-    color: var(--color-dark-grayish-blue);
+    color: var(--color-very-dark-grayish-blue);
 }
 
 main>section>div.card-body button.accordion {
+    font-size: var(--font-size-default);
+    color: var(--color-dark-grayish-blue);
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 0;
