@@ -60,6 +60,10 @@ footer {
     display: none;
 }
 
+.text-black {
+    color: black
+}
+
 /* #endregion shared class */
 
 main {
