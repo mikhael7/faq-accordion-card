@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Kumbh Sans";
     src: url('./fonts/Kumbh_Sans/KumbhSans-VariableFont_wght.ttf');
-    font-weight: 400, 700;
+    font-weight: auto;
     font-style: normal;
 }
 
 :root {
-    /* color pallette */
+    /* color palette */
     /* --primary-text */
     --color-very-dark-desaturated-blue: hsl(238, 29%, 16%);
     --color-soft-red: hsl(14, 88%, 65%);
@@ -121,11 +121,8 @@ main>section>div.card-body>div.accordion-container button.accordion {
     font-size: var(--font-size-default);
     justify-content: space-between;
     background: transparent;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 0 1rem 1rem 0;
     text-align: left;
-    padding-right: 0;
-    padding-left: 0;
     display: flex;
     border: none;
     width: 100%;
