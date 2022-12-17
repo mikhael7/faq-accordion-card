@@ -90,7 +90,7 @@ main>section.card-section {
     width: 100%;
 }
 
-main>section>div.card-header>div.background>h1 {
+main>section>div.card-header>h1 {
     text-align: center;
     font-size: 3rem;
     font-variation-settings: 'wght' var(--font-weight-bold);
@@ -117,7 +117,7 @@ main>section>div.card-body>div.accordion-container div.accordion-content {
     padding-bottom: 1rem;
 }
 
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 75em) {
 
     main>section>div.card-header>div.background {
         background: url("./images/illustration-box-desktop.svg");
