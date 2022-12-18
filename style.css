@@ -64,6 +64,11 @@ footer {
     color: black
 }
 
+.flip {
+    transform: translateY(-1);
+    transition: transform 1s
+}
+
 /* #endregion shared class */
 
 main {
