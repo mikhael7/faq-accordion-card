@@ -61,7 +61,7 @@ footer {
 }
 
 .text-black {
-    color: black
+    color: black !important;
 }
 
 .bold {
