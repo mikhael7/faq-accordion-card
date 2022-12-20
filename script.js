@@ -1,17 +1,19 @@
 const buttonAccordion = document.getElementsByClassName("accordion");
-console.log(buttonAccordion);
 
-for (let val of ratingNum.length) {
-  val.addEventListener("click", (item) => {
-    for (let val1 of ratingNum.length) {
-      val1.classList.contains("isChecked");
-      val1.classList.remove("isChecked");
+for (let i = 0; i < buttonAccordion.length; i++) {
+  buttonAccordion[i].addEventListener("click", () => {
+    console.log(buttonAccordion[i].firstElementChild.firstElementChild);
+    if (buttonAccordion[i].nextElementSibling.classList.contains("hidden")) {
+      buttonAccordion[i].nextElementSibling.classList.remove("hidden");
+      buttonAccordion[i].firstElementChild.firstElementChild.classList.add(
+        "flip"
+      );
+      return;
     }
-    val.classList.add("isChecked");
+    buttonAccordion[i].nextElementSibling.classList.add("hidden");
+    buttonAccordion[i].firstElementChild.firstElementChild.classList.remove(
+      "flip"
+    );
+    return;
   });
 }
-
-thankButton.addEventListener("click", () => {
-  thankContainer.classList.remove("hidden");
-  ratingContainer.classList.add("hidden");
-});

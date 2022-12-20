@@ -64,9 +64,13 @@ footer {
     color: black
 }
 
+.bold {
+    font-variation-settings: 'wght' 700;
+}
+
 .flip {
-    transform: translateY(-1);
-    transition: transform 1s
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
 
 /* #endregion shared class */
@@ -136,6 +140,7 @@ main>section>div.card-body>div.accordion-container button.accordion {
 main>section>div.card-body>div.accordion-container div.accordion-content {
     border-bottom: 1px solid var(--color-light-grayish-blue);
     padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 75em) {
