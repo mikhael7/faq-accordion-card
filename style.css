@@ -125,6 +125,11 @@ main>section>div.card-body {
     color: var(--color-very-dark-grayish-blue);
 }
 
+main>section>div.card-body>div.accordion-container {
+    border-bottom: 1px solid var(--color-light-grayish-blue);
+    margin-bottom: 1rem;
+}
+
 main>section>div.card-body>div.accordion-container button.accordion {
     color: var(--color-dark-grayish-blue);
     font-size: var(--font-size-default);
@@ -138,9 +143,7 @@ main>section>div.card-body>div.accordion-container button.accordion {
 }
 
 main>section>div.card-body>div.accordion-container div.accordion-content {
-    border-bottom: 1px solid var(--color-light-grayish-blue);
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 75em) {
