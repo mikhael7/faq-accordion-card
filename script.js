@@ -11,6 +11,7 @@ for (let i = 0; i < buttonAccordion.length; i++) {
       );
       return;
     }
+
     buttonAccordion[i].nextElementSibling.classList.add("hidden");
     buttonAccordion[i].classList.remove("text-black", "bold");
     buttonAccordion[i].firstElementChild.firstElementChild.classList.remove(
