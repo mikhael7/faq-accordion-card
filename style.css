@@ -149,6 +149,7 @@ main>section>div.card-body>div.accordion-container button.accordion {
 
 main>section>div.card-body>div.accordion-container button.accordion:hover {
     color: var(--color-soft-red);
+    cursor: pointer;
 }
 
 main>section>div.card-body>div.accordion-container div.accordion-content {
